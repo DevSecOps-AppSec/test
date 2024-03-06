@@ -8,7 +8,7 @@ jobs:
       continue-on-error: true                        # This allows subsequent steps to run even if this step fails
       uses: PortSwigger/dastardly-github-action@main
       with:
-        target-url: 'https://master.d3mq2gtm0l2ial.amplifyapp.com/'
+        target-url: 'https://json-xml-things.souradip.in/'
     - name: Publish Test Report
       if: always()                                    # Forces this step to always run
       uses: mikepenz/action-junit-report@v3
